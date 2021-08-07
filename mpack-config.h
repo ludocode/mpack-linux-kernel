@@ -1,7 +1,13 @@
+// SPDX-License-Identifier: GPL-2.0 OR MIT
 /*
  * Copyright (c) 2021 Nicholas Fraser
  *
- * This is dual-licensed under the MIT and GPLv2.
+ * This program is dual licensed under the terms of the MIT license OR the GNU
+ * General Public License version 2, your choice.
+ *
+ * This program is distributed WITHOUT ANY WARRANTY; without even the implied
+ * warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
+ * attached licenses for details.
  */
 
 // This is an example mpack-config.h for compiling MPack v1.1 in the Linux kernel.
