@@ -16,4 +16,4 @@ all:
 
 clean:
 	make -C $(KDIR) M=$(PWD) clean
-	rm -f mpack/src/mpack/{*.o,.*.o.cmd} mpack/test/{*.o,.*.o.cmd}
+	rm -f mpack/src/mpack/{*.o,.*.o.cmd} mpack/test/unit/src/{*.o,.*.o.cmd}

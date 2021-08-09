@@ -16,7 +16,7 @@ endif
 obj-m = mpack-tests.o
 
 SRCS := $(shell cd $(src) && ls mpack/src/mpack/*.c)
-SRCS += $(shell cd $(src) && ls mpack/test/test*.c)
+SRCS += $(shell cd $(src) && ls mpack/test/unit/src/*.c)
 SRCS += mpack-shim.c
 
 mpack-tests-y := \
@@ -27,6 +27,6 @@ ccflags-y := \
 	-Werror \
 	-I$(src) \
 	-I$(src)/mpack/src \
-	-I$(src)/mpack/test \
+	-I$(src)/mpack/test/unit/src \
 	-include mpack-tests-kernel.h \
 	-DMPACK_HAS_CONFIG=1
